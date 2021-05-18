@@ -1,14 +1,11 @@
-@font-face {
-    font-family: Baskerville;
-    src: url(/font/URW\ Baskerville\ W10\ Ultra\ Bold/);
-}
+
+
 
 body {
     padding-top: 5px;
-    padding-left: 190px;
+    padding-left: 125px;
     background-color: #c8c8c8;
-    padding-right: 190px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 125px;
 }
 
 article {
@@ -17,10 +14,15 @@ article {
 
 h1 {
 
-    font-size: 4em;
+    font-size: 4rem;
     text-align: center;
-    font-family: Baskerville;
+    font-family: 'Baskervville', serif;
     font-weight: 1000;
+    
+}
+strong
+{
+    font-weight: bolder;
 }
 
 /*Travaille sur le tableau*/
@@ -45,6 +47,10 @@ table td:nth-child(1) {
     text-align: center;
     font-weight: bold;
 }
+table td:nth-child(2) {
+    font-weight: 200;
+}
+
 
 table td,
 th {
@@ -57,8 +63,6 @@ tbody tr:hover {
 
 }
 
-/*fini avec le tableau*/
-
 a {
     color: #cf0025;
     font-weight: bold;
@@ -66,15 +70,18 @@ a {
 
 h2 {
 
-    color: #cf0025;
-    font-weight: bold;
-    font-size: 2em;
-
-    font-family: Baskerville;
+    color: #CF0025;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: 'Baskerville', serif;
 }
 
 p {
     padding-top: -50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
 }
 
 #HistoireInternet {
@@ -85,9 +92,11 @@ figure {
     background-color: #333333;
     border: 3px solid #cf0d30;
     border-radius: 10px;
-    color: white;
+    color:  #DDDDDD;
     width: 100%;
+    font-weight: bold;
     margin-left: 0;
+    font-size: 1.1rem;
     padding-top: 30px;
 }
 
@@ -102,32 +111,36 @@ img {
 figcaption {
 
     margin: 20px auto;
-    width: 80%;
+    width: 90%;
     text-align: center;
+    padding-bottom: 20px;
+    
 
 }
 
 #roleR {
-    border: 2px dashed #5144ae;
+    border: 2px dashed #4E41AE;
     padding: 20px;
-    color: #5144ae;
+    color: #4E41AE;
     background-color: #b7b7b7;
     width: 90%;
     margin: 20px auto;
     line-height: 30px;
     font-weight: bold;
+    font-size: 1.1rem;
+    padding-left: 40px;
 
 }
 
 
-pre {
-    border: 2px dashed #5144ae;
+pre 
+{
+    border: 2px dashed #4F42AE;
     padding: 20px;
-    color: #5144ae;
+    color: #4F42AE;
     background-color: #b7b7b7;
     width: 70%;
     margin: auto;
     line-height: 30px;
     font-weight: bold;
-
 }
